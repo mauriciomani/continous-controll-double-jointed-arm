@@ -24,3 +24,9 @@ Download your banana folder
 
 ### How to use the code found here
 Make sure your Notebook file is on the same path as you Reacher enviroment folder, inside should contain Reacher execution files. Also we include agent.py that includes a class with all the AGENT information, each step and action that is made also a ReplayBuffer class to store experience tuple and a noise generation class. This file imports model.py file with Pytorch framework with 2 neural networks, both with same architecture, 3 fully connected layers of 400 units and 300 units on hidden layers. 
+
+#### Some resources that I found usefull when implementing
+* https://github.com/MoritzTaylor/ddpg-pytorch
+* https://keras.io/examples/rl/ddpg_pendulum/
+* https://www.youtube.com/watch?v=6Yd5WnYls_Y
+* https://github.com/ghliu/pytorch-ddpg/blob/master/ddpg.py
