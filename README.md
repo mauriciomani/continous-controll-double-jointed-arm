@@ -1,7 +1,11 @@
 # Project 2: Continuous Control
 
 This repository includes all the needed information to train a double-jointed arm agent to move to target location, similar to UNITY Machine Learning Agents. The latter, works as enviroments to train intelligent agents. This case a simulation of robotic arm following a target ball.
-In this notebook, you will learn how to use the Unity ML-Agents environment for the first project of the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
+In this notebook, you will learn how to use the Unity ML-Agents environment for the second project of the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893). As shown above we say the arm is following the ball when is green:
+
+<p align="center">
+  <img src="images/random.gif" />
+</p>
 
 ### What is this about?
 We are going to use **Actor Critic** method to solve this enviroment. Specifically **Deep Deterministic Gradient Policy**. We are using this algorithm since we have a continous action space (that we will go further on that below). Our goal is to find an optimal policy, through selecting desired actions (in a continous space) and use those actions to produce Q-values for more information, visit report.pdf.
@@ -24,6 +28,12 @@ Download your banana folder
 
 ### How to use the code found here
 Make sure your Notebook file is on the same path as you Reacher enviroment folder, inside should contain Reacher execution files. Also we include agent.py that includes a class with all the AGENT information, each step and action that is made also a ReplayBuffer class to store experience tuple and a noise generation class. This file imports model.py file with Pytorch framework with 2 neural networks, both with same architecture, 3 fully connected layers of 400 units and 300 units on hidden layers. 
+
+### Solved
+Here is the gif of the solved enviroment using 20 agents. Here you can find the code for 20 agents trainning and 1 agent only.
+<p align="center">
+  <img src="images/optimize.png" />
+</p>
 
 #### Some resources that I found usefull when implementing
 * https://github.com/MoritzTaylor/ddpg-pytorch
