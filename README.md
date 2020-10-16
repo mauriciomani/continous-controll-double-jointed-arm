@@ -32,7 +32,7 @@ Make sure your Notebook file is on the same path as you Reacher enviroment folde
 ### Solved
 Here is the gif of the solved enviroment using 20 agents. Here you can find the code for 20 agents trainning and 1 agent only.
 <p align="center">
-  <img src="images/optimize.png" />
+  <img src="images/optimize.gif" />
 </p>
 
 #### Some resources that I found usefull when implementing
